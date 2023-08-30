@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html,body{
@@ -18,7 +20,6 @@ html,body{
 #left{
     height: 100vh;
     width: 40%;
-    background: #FFBB5C;
 }
 
 #right{
@@ -59,4 +60,41 @@ background-color: #79155B;
     background-color: aqua;
     position: absolute;
     top: 89.30%;
+}
+nav{
+    height: 10%;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+
+nav>i{
+    padding:  10px;
+    font-size: 14px;
+    color: #bababa;
+}
+
+#navleft{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+nav #navleft a{
+    font-size: 9px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding-bottom:0px ;
+    border-spacing: 0px;
+    border-bottom: .8px solid #bababa ;
+}
+
+#navleft a:nth-child(2){
+    text-decoration: none;
+    color: #bababa;
+    border: none;
+}
+
+#navleft>i{
+    color: royalblue;
 }

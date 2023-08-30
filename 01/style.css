@@ -20,6 +20,7 @@ html,body{
 #left{
     height: 100vh;
     width: 40%;
+
 }
 
 #right{
@@ -31,35 +32,63 @@ html,body{
 #right-top{
     width: 100%;
     height: 50%;
+    display: flex;
+
  
 }
 
 #rtopleft{
 height: 100%;
 width: 50%;
-background-color: #79155B;
+background-image: url(https://images.unsplash.com/photo-1504489154748-d2b48cf53875?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+background-size: cover;
+background-position: center;
 }
 
 
 #rtopright{
     height: 100%;
     width: 50%;
-    background-color: #F6635C;
+    background-image: url(https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+
 }
 
 
 #right-bottom{
     width: 100%;
     height: 50%;
-    background-color: #793FDF;
+    background-image: url(https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
 }
 
 #navpanel{
     height: 5vw;
     width: 10vw;
-    background-color: aqua;
+    background-color: #fff;
     position: absolute;
     top: 89.30%;
+    
+}
+
+#navpanel i{
+font-size: 13px;
+
+
+}
+
+#navpanel #icon{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     */
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
 }
 nav{
     height: 10%;
@@ -97,4 +126,33 @@ nav #navleft a{
 
 #navleft>i{
     color: royalblue;
+}
+
+#main-content{
+ height: 90%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+
+#centerdiv{
+    height: 60%;
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 20px;
+}
+
+
+#main-content p {
+    font-size: 1.5vw;
+    color: gray;
+    margin: 5% 0;
+
+}
+
+#main-content a{
+    font-size: 1.5vw;
+    color: black;
+    font-weight: 500;
+    border-bottom: .8px solid #bababa ;
 }

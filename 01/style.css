@@ -20,8 +20,43 @@ html,body{
     width: 40%;
     background: #FFBB5C;
 }
+
 #right{
     height: 100vh;
     width: 60%;
     background: #45FFCA;
+}
+
+#right-top{
+    width: 100%;
+    height: 50%;
+ 
+}
+
+#rtopleft{
+height: 100%;
+width: 50%;
+background-color: #79155B;
+}
+
+
+#rtopright{
+    height: 100%;
+    width: 50%;
+    background-color: #F6635C;
+}
+
+
+#right-bottom{
+    width: 100%;
+    height: 50%;
+    background-color: #793FDF;
+}
+
+#navpanel{
+    height: 5vw;
+    width: 10vw;
+    background-color: aqua;
+    position: absolute;
+    top: 89.30%;
 }
